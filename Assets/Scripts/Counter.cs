@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 
@@ -36,7 +35,6 @@ public class Counter : MonoBehaviour
                 _isActive = false;
                 StopCoroutine(_coroutine);
             }
-
         }
     }
 
